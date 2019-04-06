@@ -40,7 +40,5 @@ RSpec.describe 'HTML Album Cover' do
 
         expect(back_cover.children.select {|ch| ch.name == "img"}[1].attributes["src"].value).to be == 'https://s3.amazonaws.com/learn-verified/sony-logo.png', "First image should have its source set to 'https://s3.amazonaws.com/learn-verified/columbia-logo.png'"
 
-      end
 
-  end
 end
